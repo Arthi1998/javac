@@ -9,7 +9,7 @@ public class VowelConsonant {
 
         if(ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u' )
             System.out.println(ch + " is vowel");
-        else if(ch=='$')
+        else if(ch=='$'||ch='@'||ch='!'ch='#')
             System.out.println(ch + " is invalid");
         else
             System.out.println(ch+ "is consonant");
